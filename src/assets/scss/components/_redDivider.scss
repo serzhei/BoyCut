@@ -1,0 +1,21 @@
+.redDivider {
+  width: 100%;
+  background-color: #d31914;
+  text-align: center;
+}
+
+.redDivider__wrap {
+  background-image: url("../img/red-divider-img.png");
+  background-position: 90% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 50px;
+}
+
+.redDivider__desc {
+  text-align: center;
+  opacity: 0.8;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}

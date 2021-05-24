@@ -1,0 +1,579 @@
+.gallery {
+  width: 100%;
+  padding: 40px 128px 50px 128px;
+  background-color: #191c1f;
+}
+
+.gallery__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery__title {
+  text-align: center;
+  margin-bottom: 64px;
+  white-space: nowrap;
+}
+
+.gallery__title-redLine {
+  display: inline-block;
+  vertical-align: text-top;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 164px;
+  height: 2px;
+  background-color: #d31914;
+}
+
+.gallery__titleItem {
+  display: inline-block;
+  font-family: DINProCond-bold;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 51.92px;
+  text-transform: uppercase;
+}
+
+.gallery__choiceType {
+  margin-bottom: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.gallery__choiceType-item {
+  border-bottom: 2px solid #d31914;
+  font-family: DINProCond-light;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+  line-height: 40px;
+  opacity: 0.4;
+}
+
+.gallery-item-active {
+  opacity: 1;
+  font-family: DINProCond-bold;
+}
+
+// GALLERY GRID:
+.gallery__list {
+  margin: 0 auto;
+  width: 1110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gallery__list-top {
+  width: 1110px;
+  height: 850px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery__list-bottom {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery__bottom-divider {
+  height: 10px;
+}
+
+.gallery__top-divider {
+  height: 30px;
+}
+
+.divider {
+  height: 30px;
+}
+
+.gallery__list-top-left {
+  width: 730px;
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gallery__list-top-right {
+  width: 350px;
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gallery__list-top-left-top {
+  width: 730px;
+  height: 411px;
+  background: url("../img/tattoo/gallery/galImg1.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.gallery__list-top-left-bottom {
+  width: 730px;
+  height: 411px;
+  background: url("../img/tattoo/gallery/galImg2.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.gallery__list-top-right-top {
+  width: 350px;
+  height: 197px;
+  background: url("../img/tattoo/gallery/galImg3.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.gallery__list-top-right-bottom {
+  width: 350px;
+  height: 622px;
+  background: url("../img/tattoo/gallery/galImg4.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.gallery__list-bottom-left {
+  width: 540px;
+  height: 648px;
+  background: url("../img/tattoo/gallery/galImg5.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.gallery__list-bottom-right {
+  width: 540px;
+  height: 648px;
+  background: url("../img/tattoo/gallery/galImg6.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.gallery__list-bottom-left {
+  width: 540px;
+  height: 648px;
+  background: url("../img/tattoo/gallery/galImg7.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.gallery__list-bottom-right {
+  width: 540px;
+  height: 648px;
+  background: url("../img/tattoo/gallery/galImg8.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.galleryBc__list-bottom-right {
+  display: flex;
+  flex-direction: column;
+  width: 730px;
+}
+
+.galleryBc__list-bottom-left {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.gallery__list-top2-left-top {
+  width: 350px;
+  height: 197px;
+  margin-bottom: 30px;
+  background: url("../img/tattoo/gallery/galImg9.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.gallery__list-top2-left-bottom {
+  width: 350px;
+  height: 622px;
+  background: url("../img/tattoo/gallery/galImg10.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.gallery__list-top2-right-top {
+  width: 730px;
+  height: 411px;
+  margin-bottom: 30px;
+  background: url("../img/tattoo/gallery/galImg11.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.gallery__list-top2-right-bottom {
+  width: 730px;
+  height: 411px;
+  background: url("../img/tattoo/gallery/galImg12.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.galT2 {
+  padding-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.galBot2 {
+  background: url("../img/tattoo/gallery/galImg13.jpg") (center / cover)
+    no-repeat #000000;
+}
+
+.galBot3 {
+  background: url("../img/tattoo/gallery/galImg14.jpg") (center / cover)
+    no-repeat #000000;
+
+  // boy cut
+}
+
+.galleryBc__list-top-left-top {
+  width: 730px;
+  height: 411px;
+  background: url("../img/barber/T_L.jpg") (center / cover) no-repeat #000000;
+}
+
+.galleryBc__list-top-left-bottom {
+  width: 730px;
+  height: 411px;
+  background: url("../img/barber/M_L.jpg") (center / cover) no-repeat #000000;
+}
+
+.galleryBc__list-top-right-top {
+  width: 350px;
+  height: 197px;
+  background: url("../img/barber/T_R.jpg") (center / cover) no-repeat #000000;
+}
+
+.galleryBc__list-top-right-bottom {
+  width: 350px;
+  height: 622px;
+  background: url("../img/barber/M_R.jpg") (center / cover) no-repeat #000000;
+}
+
+.galleryBc__list-bottom-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.galleryBc__list-bottom-right-top {
+  width: 730px;
+  height: 410px;
+  margin: 30px 0;
+  background: url("../img/barber/B_R_T.jpg") (center / cover) no-repeat #000000;
+}
+
+.galleryBc__list-bottom-right-bottom {
+  width: 730px;
+  height: 410px;
+  background: url("../img/barber/B_R_B.jpg") (center / cover) no-repeat #000000;
+}
+
+.galleryBc__list-bottom-left-top {
+  width: 350px;
+  height: 600px;
+  margin: 30px 0;
+  background: url("../img/barber/B_L_T.jpg") (center / cover) no-repeat #000000;
+}
+
+.galleryBc__list-bottom-left-bottom {
+  width: 350px;
+  height: 220px;
+  background: url("../img/barber/B_L_B.jpg") (center / cover) no-repeat #000000;
+}
+
+.b1 {
+  background: url("../img/barber/1.jpg") (center / cover) no-repeat #000000;
+}
+
+.b2 {
+  background: url("../img/barber/2.jpg") (center / cover) no-repeat #000000;
+}
+
+.b3 {
+  background: url("../img/barber/3.jpg") (center / cover) no-repeat #000000;
+}
+
+.b4 {
+  background: url("../img/barber/4.jpg") (center / cover) no-repeat #000000;
+}
+
+.b5 {
+  background: url("../img/barber/5.jpg") (center / cover) no-repeat #000000;
+}
+
+.b6 {
+  background: url("../img/barber/6.jpg") (center / cover) no-repeat #000000;
+}
+
+.b7 {
+  background: url("../img/barber/7.jpg") (center / cover) no-repeat #000000;
+}
+
+.b8 {
+  background: url("../img/barber/8.jpg") (center / cover) no-repeat #000000;
+}
+
+.b9 {
+  background: url("../img/barber/9.jpg") (center / cover) no-repeat #000000;
+}
+
+.b10 {
+  background: url("../img/barber/10.jpg") (center / cover) no-repeat #000000;
+}
+
+.b11 {
+  background: url("../img/barber/11.jpg") (center / cover) no-repeat #000000;
+}
+
+.b12 {
+  background: url("../img/barber/12.jpg") (center / cover) no-repeat #000000;
+}
+
+.b13 {
+  background: url("../img/barber/13.jpg") (center / cover) no-repeat #000000;
+}
+
+.b14 {
+  background: url("../img/barber/14.jpg") (center / cover) no-repeat #000000;
+}
+
+.b15 {
+  background: url("../img/barber/15.jpg") (center / cover) no-repeat #000000;
+}
+
+.b16 {
+  background: url("../img/barber/16.jpg") (center / cover) no-repeat #000000;
+}
+
+.b17 {
+  background: url("../img/barber/17.jpg") (center / cover) no-repeat #000000;
+}
+
+.b18 {
+  display: none;
+  background: url("../img/barber/18.jpg") (center / cover) no-repeat #000000;
+}
+
+.b19 {
+  display: none;
+  background: url("../img/barber/19.jpg") (center / cover) no-repeat #000000;
+}
+
+.b20 {
+  display: none;
+  background: url("../img/barber/20.jpg") (center / cover) no-repeat #000000;
+}
+
+.b21 {
+  display: none;
+  background: url("../img/barber/21.jpg") (center / cover) no-repeat #000000;
+}
+
+.gallery-item {
+  background-image: none;
+  cursor: pointer;
+}
+
+.t1 {
+  background: url("../img/tattoo/gallery/1.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t2 {
+  background: url("../img/tattoo/gallery/2.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t3 {
+  background: url("../img/tattoo/gallery/3.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t4 {
+  background: url("../img/tattoo/gallery/4.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t5 {
+  background: url("../img/tattoo/gallery/5.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t6 {
+  background: url("../img/tattoo/gallery/6.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t7 {
+  background: url("../img/tattoo/gallery/7.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t8 {
+  background: url("../img/tattoo/gallery/8.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t9 {
+  background: url("../img/tattoo/gallery/9.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t10 {
+  background: url("../img/tattoo/gallery/10.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t11 {
+  background: url("../img/tattoo/gallery/11.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t12 {
+  background: url("../img/tattoo/gallery/12.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t13 {
+  background: url("../img/tattoo/gallery/13.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t14 {
+  background: url("../img/tattoo/gallery/14.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t15 {
+  background: url("../img/tattoo/gallery/15.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t16 {
+  background: url("../img/tattoo/gallery/16.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t17 {
+  background: url("../img/tattoo/gallery/17.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t18 {
+  background: url("../img/tattoo/gallery/18.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t19 {
+  background: url("../img/tattoo/gallery/19.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t20 {
+  background: url("../img/tattoo/gallery/20.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t21 {
+  background: url("../img/tattoo/gallery/21.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t22 {
+  background: url("../img/tattoo/gallery/22.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t23 {
+  background: url("../img/tattoo/gallery/23.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t24 {
+  background: url("../img/tattoo/gallery/24.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t25 {
+  background: url("../img/tattoo/gallery/25.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t26 {
+  background: url("../img/tattoo/gallery/26.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t27 {
+  background: url("../img/tattoo/gallery/27.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t28 {
+  background: url("../img/tattoo/gallery/28.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.t29 {
+  background: url("../img/tattoo/gallery/29.jpg") (center / cover) no-repeat
+    #000000;
+}
+
+.gallery__more__wrap {
+  padding-top: 45px;
+  text-align: center;
+}
+
+.gallery__more {
+  width: 285px;
+  height: 47px;
+  padding: 0 39px 0 39px;
+  font-family: DINProCond-med;
+  color: #d31914;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 37.56px;
+  text-transform: uppercase;
+  border-right: 2px solid #d31914;
+  border-left: 2px solid #d31914;
+  transition: 0.2s;
+
+  &:hover {
+    color: #d31914cf;
+    border-right: 2px solid #d31914cf;
+    border-left: 2px solid #d31914cf;
+  }
+}
+
+.hiddenGallery {
+  height: 0;
+  overflow: hidden;
+}
+
+.showGallery {
+  height: auto;
+}
+
+#moreGallery {
+  transition: 2s;
+  max-height: 2000px;
+}
+
+.gallery__choiceType-item-interier {
+  margin-left: 20px;
+}
+
+.big-image {
+  z-index: 11;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh !important;
+  margin: 0 !important;
+  background-size: contain;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
+}

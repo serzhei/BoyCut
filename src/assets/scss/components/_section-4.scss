@@ -1,0 +1,172 @@
+.section-4 {
+  width: 100%;
+  background-color: #191c1f;
+  padding: 75px 74px 75px 72px;
+  overflow-x: hidden;
+
+  img {
+    vertical-align: middle;
+  }
+}
+
+.section-4__inner {
+  position: relative;
+  width: 100%;
+}
+
+.section-4__title {
+  text-align: center;
+  margin-bottom: 95px;
+}
+
+.section-4__title-redLine {
+  display: inline-block;
+  vertical-align: text-top;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 164px;
+  height: 2px;
+  background-color: #d31914;
+}
+
+.section-4__titleItem {
+  display: inline-block;
+  font-family: DINProCond-bold;
+  font-size: 46px;
+  line-height: 51.92px;
+  text-transform: uppercase;
+}
+
+// RAY:
+.section-4__leftBtn {
+  z-index: 99;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  background-color: unset;
+  border: none;
+  outline: none;
+}
+
+.section-4__rightBtn {
+  z-index: 99;
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  background-color: unset;
+  border: none;
+  outline: none;
+}
+
+.section-4__slideBarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  padding: 20px;
+  min-height: 404px;
+}
+
+.section-4__slideBarItemInner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.header__title__btnMasters {
+  width: 256px;
+  height: 47px;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.section-4__master-text {
+  width: 277px;
+  height: 240px;
+  font-family: DINProCond-reg;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 100;
+}
+
+// RAY END
+.section-4-master-desc {
+  margin-top: 10px;
+  font-family: DINPro-light;
+  width: 214px;
+  text-align: center;
+  opacity: 0.8;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.36px;
+}
+
+.section-4__name {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: DINProCond-black;
+  margin: 10px 0 5px;
+}
+
+//CAROUSEL:
+
+.masterItemBox {
+  border-radius: 50%;
+  width: 277px;
+  height: 302px;
+  background-position: (-30px) -10px;
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+
+.masterItemBox img {
+  width: 100%;
+  height: 100%;
+}
+
+//BARBER MASTERS:
+
+.masterAlexey .masterItemBox {
+  background-image: url("../img/barberMasters/alexey.jpg");
+}
+
+.masterMatvey .masterItemBox {
+  background-image: url("../img/barberMasters/matvey.jpg");
+}
+
+.masterRuslan .masterItemBox {
+  background-image: url("../img/barberMasters/ruslan.jpg");
+}
+
+.masterValera .masterItemBox {
+  background-image: url("../img/barberMasters/valera.jpg");
+}
+
+.masterYura .masterItemBox {
+  background-image: url("../img/barberMasters/yura.jpg");
+}
+
+//TATTOO MASTERS:
+
+.tattooOleg .masterItemBox {
+  background-image: url("../img/tattooMasters/oleg.jpg");
+}
+
+.tattooNikita .masterItemBox {
+  background-image: url("../img/tattooMasters/nikita.jpg");
+}
+
+.tattooKatya .masterItemBox {
+  background-image: url("../img/tattooMasters/katya.jpg");
+}
+
+.tattooArmen .masterItemBox {
+  background-image: url("../img/tattooMasters/armen.jpg");
+}

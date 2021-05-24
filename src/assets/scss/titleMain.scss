@@ -1,0 +1,316 @@
+.header {
+  justify-content: flex-start;
+  padding: 25px 0 0 0;
+
+  &--title {
+    background-image: url("../img/titlePage/bg-header-title.jpg");
+    background-repeat: repeat;
+    background-size: unset;
+  }
+}
+
+.header__nav-wrap {
+  padding: 0 35px;
+}
+
+.mainLogo {
+  background-image: url("../img/titlePage/red-cloud.png") (center / cover);
+}
+
+.header__chooseFrame {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  padding-top: 18px;
+
+  &--bigLink {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+  }
+
+  &--leftSide {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%;
+    width: 49%;
+    text-align: right;
+    background-image: url("../img/titlePage/Barber.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    transition: all 0.5s ease-in-out;
+    opacity: 0.4;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &--middleSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 5px;
+    height: 100%;
+    text-align: center;
+  }
+
+  &--rightSide {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 48%;
+    background-image: url("../img/titlePage/Tattoo.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    transition: all 0.5s ease-in-out;
+    opacity: 0.4;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &--redLineTitleTop {
+    width: 2px;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #912b2c 0%, #75272a 100%);
+  }
+
+  &--redLineTitleBottom {
+    width: 2px;
+    height: 70px;
+    display: none;
+    background-image: linear-gradient(to bottom, #912b2c 0%, #75272a 100%);
+  }
+
+  &--choosePart {
+    font-family: DINProCond-reg, serif;
+    white-space: nowrap;
+    font-size: 22px;
+    line-height: 23px;
+    opacity: 0.4;
+    margin: 80px 0 50px;
+  }
+}
+
+.pFilm__wrap {
+  z-index: 2;
+  margin-bottom: 12px;
+  display: none;
+
+  &--logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  &--filmWords {
+    font-size: 22px;
+    line-height: 23px;
+    opacity: 0.4;
+  }
+}
+
+.maintitle-area {
+  width: 300px;
+  height: 95%;
+  font-family: DINProCond-reg, serif;
+
+  &--left {
+    text-align: right;
+  }
+}
+
+.titleBarber {
+  padding-right: 30px;
+}
+
+.titleTattoo {
+  padding-left: 30px;
+}
+
+.Maintitle {
+  height: unset;
+  margin-top: 150px;
+  font-size: 92px;
+  letter-spacing: 0.93px;
+  line-height: 86px;
+  text-transform: uppercase;
+  transition: all 0.3ms ease-in-out;
+}
+
+.overlay-left {
+  width: 50%;
+  height: 95%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("../img/titlePage/red-fill-left.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.45;
+}
+
+.overlay-right {
+  width: 50%;
+  height: 95%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../img/titlePage/red-fill-right.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.45;
+}
+
+.leftSocial-first {
+  display: flex;
+  background: black;
+  border-radius: 30px;
+  padding: 2px;
+  cursor: pointer;
+
+  a {
+    display: flex;
+    padding-right: 18px;
+  }
+}
+
+.leftSocial-second {
+  display: flex;
+  background: black;
+  border-radius: 30px;
+  padding: 2px;
+  cursor: pointer;
+
+  a {
+    display: flex;
+    padding-right: 10px;
+  }
+}
+
+.mTitle-redDiv {
+  z-index: 2;
+  width: 100%;
+  height: auto;
+  min-height: 70vh;
+  background: url("../img/titlePage/redDivider-title-bg.png") center / cover no-repeat;
+
+  &--aStudyItemLink {
+    color: inherit;
+  }
+
+  &--wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    background-image: url("../img/titlePage/cut.png"),
+      url("../img/titlePage/tatto.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, top right;
+    background-size: 380px 390px;
+    padding-bottom: 120px;
+  }
+
+  &--frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 114px;
+    padding-bottom: 100px;
+    width: 66%;
+    text-align: center;
+    font-family: DINProCond-reg, serif;
+  }
+
+  &--name {
+    font-size: 120px;
+    line-height: 46.57px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    white-space: nowrap;
+  }
+
+  &--subname {
+    opacity: unset;
+    font-size: 24px;
+    font-family: DINPro-light, serif;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &--aStudy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &--aStudyItem {
+    text-align: center;
+    font-family: DINProCond-reg, serif;
+  }
+
+  &--aStudyItem:not(:first-child) {
+    margin-left: 290px;
+    text-align: center;
+  }
+
+  &--aStudyItemTitle {
+    color: #121726;
+    font-size: 60px;
+    line-height: 84.07px;
+    text-transform: uppercase;
+  }
+
+  &--aStudyItemBtn {
+    font-size: 27px;
+    line-height: 37.56px;
+    text-transform: uppercase;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    padding-left: 47px;
+    padding-right: 47px;
+    margin-top: 60px;
+    transition: 0.3s;
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.81);
+      border-right: 2px solid rgba(255, 255, 255, 0.81);
+      border-left: 2px solid rgba(255, 255, 255, 0.81);
+    }
+  }
+}
+
+img {
+  opacity: 0.8;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+> img:nth-child(2) {
+  margin: 0 35px;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}

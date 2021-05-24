@@ -1,0 +1,68 @@
+<div class="pupTraingBigWrap pupHide">
+  <div class="pupTraingWrap">
+    <div class="pupTraingMenu">
+      <svg
+        width="47"
+        height="47"
+        class="pupTraing_close"
+        viewBox="0 0 47 47"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        id="pupTraingClosePup"
+      >
+        <line
+          x1="11.7275"
+          y1="35.0619"
+          x2="35.062"
+          y2="11.7274"
+          stroke="white"
+        ></line>
+        <line
+          x1="35.062"
+          y1="35.2726"
+          x2="11.7274"
+          y2="11.938"
+          stroke="white"
+        ></line>
+      </svg>
+    </div>
+    <div class="pupTraing">
+      <div class="pupTraing__title">запись на сеанс</div>
+
+      <form
+        action="scripts/mail.php"
+        method="post"
+        class="pupTraingForm"
+        autocomplete="off"
+      >
+        <label class="mainPup__input-wrap" for="name">
+          <input
+            onfocus="this.placeholder=''"
+            onblur="this.placeholder='Имя'"
+            placeholder="Имя"
+            required
+            type="text"
+            class="pupTraing__input"
+            name="userName"
+          />
+          <span class="mainPup__input-caption">Имя*</span>
+        </label>
+
+        <label class="mainPup__input-wrap" for="name">
+          <input
+            placeholder="+7(___)___-__-__"
+            required
+            type="text"
+            class="pupTraing__input tatto-phone-mask"
+            name="phoneNumber"
+          />
+          <span class="mainPup__input-caption">Контактный телефон</span>
+        </label>
+
+        <button name="send" type="submit" class="pupTraing__btn btn">
+          записаться
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

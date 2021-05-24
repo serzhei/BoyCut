@@ -1,0 +1,28 @@
+# Локальный сервер будет открываться в localhost:xxxx, где xxxx указанный порт
+PORT: 8000
+
+# Настройки для UnCSS
+UNCSS_OPTIONS:
+  html:
+    # Путь где именно должен искать неиспользуемые классы, точнее во всех файлах .html в папке dist
+    - "dist/**/*.html"
+
+# В Gulp в переменной PATHS будут использоваться данные пути
+PATHS:
+  # Путь для папки dist
+  dist: "dist"
+  # Путь для папки assets, где находятся все картинки, CSS и JavaScript файлы
+  assets:
+    - "src/assets/**/*"
+    - "!src/assets/{img,js,scss}/**/*"
+  # Путь для папки mail, где находятся script отправки письма
+  mail:
+    - "src/scripts/**/*"
+  # Пути для Sass библиотек, который могут быть загружены с помощью @import
+  sass:
+    - "node_modules/normalize-scss/sass"
+    - "node_modules/swiper/src"
+    - "node_modules/animatewithsass"
+  # Путь для JavaScript, где начинает работать Webpack, чтобы собирать модули
+  entries:
+    - "src/assets/js/app.js"

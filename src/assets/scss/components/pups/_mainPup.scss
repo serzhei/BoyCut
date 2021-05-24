@@ -1,0 +1,172 @@
+.pupTraingBigWrap {
+  display: flex;
+  z-index: 9999;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.pupTraingWrap {
+  width: 490px;
+  height: 529px;
+}
+
+.pupTraing {
+  padding: 45px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 436px;
+  height: 476px;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.pupTraingMenu {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.pupTraing_close {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.pupTraing_close:hover {
+  opacity: 0.8;
+}
+
+.pupTraing__title {
+  margin-bottom: 46px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  font-family: DINProCond-bold;
+  width: 100%;
+  text-align: center;
+}
+
+.pupTraing__title.pupTraing__titleCoatch {
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: initial;
+  margin-bottom: 20px;
+  font-family: DINProCond-med;
+  font-weight: normal;
+}
+
+.pupTraing__input {
+  width: 100%;
+  height: 38px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 1px #858686 solid;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  &:required:valid {
+    border-bottom: 1px solid green;
+  }
+
+  &:required {
+    border-bottom: 1px #858686 solid;
+  }
+}
+
+.pupTraing__btn {
+  height: 47px;
+  width: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 26px;
+  line-height: 31px;
+  color: #d31914;
+  text-transform: uppercase;
+  border-left: 2px solid #d31914;
+  border-right: 2px solid #d31914;
+  cursor: pointer;
+  font-family: DINProCond-bold;
+
+  &:hover {
+    color: rgba(211, 25, 20, 0.81);
+    border-right: 2px solid rgba(211, 25, 20, 0.81);
+    border-left: 2px solid rgba(211, 25, 20, 0.81);
+  }
+}
+
+.mainPup {
+  &__input-wrap {
+    position: relative;
+    width: 20rem;
+    transition: 0.3s;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__input-caption {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    opacity: 0;
+    width: 276px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    line-height: 22px;
+    transition: 0.3s;
+
+    &--show {
+      opacity: 1;
+      font-size: 16px;
+    }
+  }
+}
+
+.pupHide {
+  display: none;
+}
+
+.pupShow {
+  display: flex;
+}
+
+@media (max-width: 530px) {
+  .pupTraingWrap {
+    width: 310px;
+  }
+
+  .pupTraing {
+    width: 310px;
+    padding: 15px 30px;
+  }
+
+  .pupTraingTitle {
+    width: 310px;
+    padding: 30px 20px;
+    margin: 0 auto;
+  }
+
+  .pupTraing__title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .mainPup__input-caption {
+    font-size: 14px;
+    width: 250px;
+  }
+}

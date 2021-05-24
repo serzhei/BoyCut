@@ -1,0 +1,134 @@
+.header {
+  background-image: url("../img/tattoo/bg-header-tattoo.png");
+}
+
+.section-3__rightSide__bg {
+  background-image: url("../img/tattoo/bg-section-2-tattoo.png");
+}
+
+.userForm {
+  height: 100%;
+  width: 100%;
+  background: url("../img/tattoo/bg-red-zone-tattoo.png") 0 / cover no-repeat;
+  padding: 110px 50px 85px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  &__inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &--title {
+    font-size: 46px;
+    letter-spacing: 0.58px;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: DINProCond-bold, serif;
+  }
+
+  &--subTitle {
+    font-size: 22px;
+    font-family: DINProCond-reg, serif;
+    opacity: 0.8;
+    margin-bottom: 55px;
+  }
+
+  &--frame {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 74px;
+  }
+
+  &-inputs {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  &--makeCall {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 27px;
+    line-height: 37.56px;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+
+    border-right: 2px solid rgba(255, 255, 255, 0.8);
+    border-left: 2px solid rgba(255, 255, 255, 0.8);
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: DINProCond-med, serif;
+    transition: 0.3s;
+
+    &:hover {
+      color: rgba(255, 255, 255, 1);
+      border-left: 2px solid #fff;
+      border-right: 2px solid #fff;
+    }
+  }
+}
+
+.userForm--title-blackWord {
+  color: #000;
+}
+
+.userFormItem {
+  margin-right: 30px;
+  width: 350px;
+  background: unset;
+  border: unset;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  outline: none;
+  font-size: 20px;
+  line-height: 38px;
+  color: #fff;
+
+  &:focus {
+    color: #fff;
+    border-bottom: 2px solid #ffffff;
+    opacity: 1;
+  }
+
+  &::placeholder {
+    opacity: 0.5;
+    color: #ffffff;
+  }
+
+  &--iEmail {
+    margin-right: 0;
+  }
+}
+
+.userFormItemSkills {
+  width: 730px;
+  margin-right: 0;
+}
+
+.certificates {
+  padding: 127px 0 0 175px;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+
+  &--title {
+    color: #000;
+    font-size: 46px;
+    letter-spacing: 2.3px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

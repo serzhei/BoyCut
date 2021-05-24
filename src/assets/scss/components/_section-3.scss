@@ -1,0 +1,155 @@
+.section-3 {
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.section-3__leftSide {
+  padding: 60px 111px 18px 125px;
+  width: 50%;
+  background-color: #fff;
+  color: #000;
+}
+
+.section-3__leftSide__title {
+  margin: 0 0 50px;
+  font-size: 46px;
+  font-weight: 700;
+  font-family: DINProCond-bold, serif;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+}
+
+.section-3__leftSide__choiceService {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section-3__leftSide__choiceService-item {
+  margin-right: 30px;
+  border-bottom: 2px solid #d31914;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+  line-height: 40px;
+  opacity: 0.4;
+}
+
+.Service-item-active {
+  opacity: 1;
+}
+
+.section-3__leftSide__serviceList {
+  margin-bottom: 32px;
+  width: 400px;
+  overflow-y: auto;
+}
+
+.section-3__leftSide__serviceList-item {
+  // width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 22px;
+}
+
+.section-3__leftSide__serviceList-item__active {
+  border-bottom: #d31914 2px solid;
+  padding-bottom: 5px;
+}
+
+.section-3__leftSide__openBtn {
+  width: 350px;
+  text-align: center;
+}
+
+.section-3__rightSide {
+  position: relative;
+  padding: 455px 140px 18px 74px;
+  width: 50%;
+  background-color: #191c1f;
+}
+
+.section-3__rightSide__title {
+  opacity: 0.99;
+  margin-bottom: 40px;
+  font-size: 46px;
+  line-height: 45px;
+  text-transform: uppercase;
+  letter-spacing: 0.92px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+  // white-space: nowrap;
+}
+
+.section-3__rightSide__bg {
+  position: absolute;
+  top: 8%;
+  top: 70px;
+  right: 0;
+  background-image: url("../img/burberGalleryService/shave.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 110%;
+  height: 444px;
+}
+
+.section-3__rightSide__desc {
+  margin-bottom: 34px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+.section-3__rightSide__deal {
+  width: 377px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-3__cost {
+  font-size: 27px;
+  font-family: DINProCond-bold, serif;
+  font-weight: 400;
+  letter-spacing: 1.73px;
+  opacity: 0.8;
+}
+
+.section-3__buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 47px;
+  color: #ffffff;
+  font: 400 29px / 38px DINProCond-med, serif;
+  text-transform: uppercase;
+  transition: 0.3s;
+  background: #d31914;
+}
+
+.serviceItem-cost {
+  font-size: 20px;
+  font-family: DINProCond-reg, serif;
+  white-space: nowrap;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.serviceItem-name {
+  cursor: pointer;
+  font-size: 20px;
+  font-family: DINPro-med, serif;
+  transition: 0.3s;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+}

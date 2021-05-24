@@ -1,0 +1,57 @@
+.footer {
+  width: 100%;
+  padding: 25px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(7, 7, 7, 0.39);
+}
+
+.copy,
+.author {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+}
+
+.copy {
+  width: 100%;
+}
+
+.admeName {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.3s;
+  white-space: nowrap;
+
+  &:hover {
+    color: rgba(177, 26, 26, 0.8);
+  }
+}
+
+.blocksIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 180px 0 20px;
+  white-space: nowrap;
+
+  svg {
+    opacity: 0.4;
+  }
+
+  svg:hover {
+    opacity: 0.7;
+  }
+
+  svg:nth-child(2) {
+    margin: 0 40px;
+  }
+}
+
+.blocksIconItem {
+  margin: 0 20px;
+}

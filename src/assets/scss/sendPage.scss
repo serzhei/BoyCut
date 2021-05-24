@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "DINPro";
+  src: url("../fonts/DINPro.ttf");
+}
+
+@import "./global/global";
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  margin: 0;
+}
+
+.page-phone-title {
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.support-phone {
+  font-size: 40px;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #d31914;
+
+  &:hover {
+    color: #d31914;
+  }
+}
+
+.return-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 60px;
+  margin-top: 40px;
+  background: #d31914;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media (max-width: 760px) {
+  .page-title {
+    font-size: 28px;
+  }
+
+  .page-phone-title {
+    font-size: 20px;
+  }
+
+  .support-phone {
+    font-size: 32px;
+  }
+
+  .return-main {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

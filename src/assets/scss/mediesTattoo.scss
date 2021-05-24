@@ -1,0 +1,98 @@
+@media (max-width: 850px) {
+  .header__title-wrap {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .loadLine {
+    display: none;
+  }
+
+  .section-3__rightSide__bg {
+    background-image: url("../img/tattoo/bg-section-2-tattoo.png");
+  }
+
+  .mapContainer {
+    height: 290px;
+  }
+
+  .userForm {
+    background-color: #191c1f;
+    padding: 49px 16px 41px 16px;
+  }
+
+  .userForm--title {
+    text-align: center;
+    font-size: 39px;
+    margin-bottom: 15px;
+  }
+
+  .userForm--subTitle {
+    font-size: 18px;
+  }
+
+  .userForm--frame {
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 400px;
+    flex-direction: column;
+  }
+
+  .userFormItem {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  .userForm--makeCall {
+    color: #fff;
+    font-size: 19px;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    width: 100%;
+  }
+
+  .certificates {
+    padding: 17px 0 0 25px;
+  }
+
+  .gallery {
+    padding: 40px 0 35px 0;
+  }
+
+  .footer {
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  .copy {
+    margin-bottom: 10px;
+  }
+
+  .section-4__slideBarItem {
+    min-height: unset;
+  }
+
+  .section-2 {
+    min-height: unset;
+  }
+
+  .section-2__leftSideSpace {
+    min-height: 40vh;
+  }
+
+  .userForm-inputs {
+    flex-direction: column;
+    width: 100%;
+
+    &:first-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .userFormItem {
+    margin-right: 0;
+  }
+}

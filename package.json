@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "description": "Template",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --production"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ],
+  "author": "Ray Vector",
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "animatewithsass": "^3.2.1",
+    "handlebars": "^4.7.6",
+    "jquery": "^3.5.1",
+    "swiper": "^4.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.2.1",
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-load-plugins": "^1.6.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "panini": "^1.7.1",
+    "uncss": "^0.16.2",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.44.2",
+    "webpack-stream": "^5.2.1"
+  },
+  "private": true
+}
